@@ -1,5 +1,5 @@
 import tensorflow as tf
-import input_data
+from tensorflow.examples.tutorials.mnist import input_data
 
 mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
 
@@ -17,23 +17,26 @@ x_image = tf.reshape(x, [-1, 28, 28, 1])
 with tf.name_scope("conv1_weights"):
     conv1_weights = tf.get_variable("conv1_weights", [5, 5, 1, 32], initializer=tf.truncated_normal_initializer(stddev=0.1))
     tf.summary.histogram("conv1_weights",conv1_weights)
+
 with tf.name_scope("conv1_biases"):
     conv1_biases = tf.get_variable("conv1_biases", [32], initializer=tf.constant_initializer(0.0))
     tf.summary.histogram("conv1_biases", conv1_biases)
+
 with tf.name_scope("conv1"):
 # 移动步长为1, 使用全0填充
     conv1 = tf.nn.conv2d(x_image, conv1_weights, strides=[1, 1, 1, 1], padding='SAME')
     tf.summary.histogram("conv1",conv1)
+
 # 激活函数Relu去线性化
 with tf.name_scope("relu1"):
     relu1 = tf.nn.relu(tf.nn.bias_add(conv1, conv1_biases))
     tf.summary.histogram("relu1", relu1)
-
 # 第二层：最大池化层
 # 池化层过滤器的大小为2*2, 移动步长为2，使用全0填充
 with tf.name_scope("pool1"):
     pool1 = tf.nn.max_pool(relu1, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='SAME')
     tf.summary.histogram("pool1", pool1)
+
 # 第三层：卷积层
 with tf.name_scope("conv2_weights"):
     conv2_weights = tf.get_variable("conv2_weights", [5, 5, 32, 64], initializer=tf.truncated_normal_initializer(
@@ -79,7 +82,6 @@ with tf.name_scope("fc2_biases"):
 with tf.name_scope("fc2"):
     fc2 = tf.matmul(fc1_dropout, fc2_weights) + fc2_biases
     tf.summary.histogram("fc2", fc2)
-
 # 第七层：输出层
 # softmax
 with tf.name_scope("y_conv"):

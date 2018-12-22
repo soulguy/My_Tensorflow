@@ -1,6 +1,5 @@
 import tensorflow as tf
 import numpy as np
-
 def add_layer(input,input_size,output_size,n_layer,activation_function=None):
     layer_name = "layer%s" % n_layer
     with tf.name_scope("Weight"):

@@ -2,9 +2,9 @@
 ##为何pooling和full connection，维度变化
 from __future__ import print_function
 import tensorflow as tf
-from tensorflow.examples.tutorials.mnist import input_data
+from tensorflow.contrib.learn.python.learn.datasets.mnist import read_data_sets
 # number 1 to 10 data
-mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
+mnist = read_data_sets('MNIST_data', one_hot=True)
 
 def compute_accuracy(v_xs, v_ys):
     global prediction
@@ -45,7 +45,7 @@ h_conv1 = tf.nn.relu(conv2d(x_image, W_conv1) + b_conv1) # output size 28x28x32
 h_pool1 = max_pool_2x2(h_conv1)                                         # output size 14x14x32
 
 ## conv2 layer ##
-W_conv2 = weight_variable([5,5, 32, 64]) ##patch:5x5 (卷积核的大小) in size:32(图片的厚度) out size:64(卷积后高度为64)
+W_conv2 = weight_variable([5,5,32, 64]) ##patch:5x5 (卷积核的大小) in size:32(图片的厚度) out size:64(卷积后高度为64)
 b_conv2 = bias_variable([64])
 h_conv2 = tf.nn.relu(conv2d(h_pool1, W_conv2) + b_conv2) # output size 14x14x64
 h_pool2 = max_pool_2x2(h_conv2)                                         # output size 7x7x64
