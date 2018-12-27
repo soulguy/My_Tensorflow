@@ -13,7 +13,7 @@
 # limitations under the License.  
 # ==============================================================================  
 """Evaluation for CIFAR-10. 
-Accuracy: 
+Accuracy: 1
 cifar10_train.py achieves 83.0% accuracy after 100K steps (256 epochs 
 of data) as judged by cifar10_eval.py. 
 Speed: 

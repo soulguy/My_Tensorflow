@@ -36,7 +36,7 @@ import tarfile
 import tensorflow.python.platform  
 from six.moves import urllib  
 import tensorflow as tf  
-import cifar10_input  
+import cifar10_input
 FLAGS = tf.app.flags.FLAGS  
 # Basic model parameters.  
 tf.app.flags.DEFINE_integer('batch_size', 128,  
@@ -272,7 +272,7 @@ def train(total_loss, global_step):
   loss_averages_op = _add_loss_summaries(total_loss)  
   # Compute gradients.  
   with tf.control_dependencies([loss_averages_op]):  
-    opt = tf.train.GradientDescentOptimizer(lr)  
+    opt = tf.train.AdamOptimizer(lr)
     grads = opt.compute_gradients(total_loss)  
   # Apply gradients.  
   apply_gradient_op = opt.apply_gradients(grads, global_step=global_step)  
