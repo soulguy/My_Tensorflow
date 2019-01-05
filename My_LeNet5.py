@@ -7,26 +7,29 @@ sess = tf.InteractiveSession()
 # 定义输入 图片规格为28
 # 训练数据
 xs = tf.placeholder("float", shape=[None, 784])
+
 # 训练标签数据
 ys = tf.placeholder("float", shape=[None, 10])
 
 input_images = tf.reshape(xs, [-1, 28, 28, 1])
 
 # 第一层：卷积层C1
-
 # 共享权值
 with tf.name_scope('conv1_weights'):
     conv1_weights = tf.get_variable('conv1_weights', [5, 5, 1, 32],
                                     initializer=tf.truncated_normal_initializer(stddev=0.1))
     tf.summary.histogram('conv1_weights', conv1_weights)
+
 # 每个滤波器扫描完后加上的偏移量
 with tf.name_scope('conv1_biases'):
     conv1_biases = tf.get_variable('conv1_biases', [32], initializer=tf.constant_initializer(0.0))
     tf.summary.histogram('conv1_biases', conv1_biases)
+
 # 卷积
 with tf.name_scope('conv1'):
     conv1 = tf.nn.conv2d(input_images, conv1_weights, strides=[1, 1, 1, 1], padding='SAME')
     tf.summary.histogram('conv1', conv1)
+
 # 卷积完后对结果非线性转换
 with tf.name_scope('conv1_relu'):
     conv1_relu = tf.nn.relu(tf.nn.bias_add(conv1, conv1_biases))
@@ -93,9 +96,11 @@ with tf.name_scope('cross_entropy'):
 correction_predicion = tf.equal(tf.argmax(ys,1),tf.argmax(y_conv,1))
 accuracy = tf.reduce_mean(tf.cast(correction_predicion,tf.float32))
 merged = tf.summary.merge_all()
+
 train_writer = tf.summary.FileWriter("My_LeNet5/train",sess.graph)
 test_writer = tf.summary.FileWriter("My_LeNet5/test",sess.graph)
 sess.run(tf.global_variables_initializer())
+
 for i in range(10000):
     batch = mnist.train.next_batch(100)
     if i%100 ==0:
