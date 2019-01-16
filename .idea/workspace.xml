@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60f59fc8-61b6-4a23-84ae-b6aa3b8a3fa4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConvNet/AlexNet.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ConvNet/Alexnet_mytest.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ConvNet/My_vgg16.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ConvNet/imagenet_classes.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ConvNet/vgg16.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/TensorFlow.iml" afterPath="$PROJECT_DIR$/.idea/TensorFlow.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/LeNet-5.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/My_LeNet5.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resnet.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="example1-mofan.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="example1-mofan.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mofan/example1-mofan.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="416">
-              <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+              <caret line="26" column="3" lean-forward="false" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
               <folding>
                 <element signature="e#827#850#0" expanded="true" />
               </folding>
@@ -45,14 +44,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="My_LeNet5.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ConvNet/My_LeNet5.py">
+      <file leaf-file-name="vgg16.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConvNet/vgg16.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1680">
-              <caret line="106" column="22" lean-forward="false" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="22" />
+            <state relative-caret-position="385">
+              <caret line="253" column="40" lean-forward="false" selection-start-line="253" selection-start-column="40" selection-end-line="253" selection-end-column="40" />
               <folding>
-                <element signature="e#0#58#0" expanded="true" />
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="My_vgg16.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ConvNet/My_vgg16.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="imagenet_classes.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConvNet/imagenet_classes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="999" column="59" lean-forward="false" selection-start-line="999" selection-start-column="59" selection-end-line="999" selection-end-column="59" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,7 +91,7 @@
       <file leaf-file-name="Alexnet_mytest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ConvNet/Alexnet_mytest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1728">
+            <state relative-caret-position="1712">
               <caret line="108" column="72" lean-forward="false" selection-start-line="108" selection-start-column="72" selection-end-line="108" selection-end-column="72" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
@@ -111,26 +132,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mnist.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MNIST/mnist.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="example9-mofan.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mofan/example9-mofan.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -142,19 +143,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>plt</find>
-      <find>con</find>
-      <find>conv</find>
-      <find>minist</find>
-      <find>32</find>
-      <find>Placeholder</find>
-      <find>eval_once</find>
-      <find>saver</find>
-      <find>ckpt.model_checkpoint_path</find>
-      <find>model_checkpoint_path</find>
-      <find>train_path</find>
-      <find>train_dir</find>
-      <find>weight_variable</find>
       <find>x_image</find>
       <find>sess</find>
       <find>xs</find>
@@ -172,6 +160,19 @@
       <find>MatMul</find>
       <find>y</find>
       <find>keep_prob</find>
+      <find>__init__</find>
+      <find>load_weights</find>
+      <find>vgg16</find>
+      <find>imgs</find>
+      <find>k</find>
+      <find>fc3l</find>
+      <find>sorted</find>
+      <find>probs</find>
+      <find>class_name</find>
+      <find>Varible</find>
+      <find>stddeev</find>
+      <find>weights</find>
+      <find>weight</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -224,6 +225,9 @@
         <option value="$PROJECT_DIR$/ConvNet/AlexNet.py" />
         <option value="$PROJECT_DIR$/ConvNet/Alexnet_mytest.py" />
         <option value="$PROJECT_DIR$/mofan/example1-mofan.py" />
+        <option value="$PROJECT_DIR$/ConvNet/imagenet_classes.py" />
+        <option value="$PROJECT_DIR$/ConvNet/vgg16.py" />
+        <option value="$PROJECT_DIR$/ConvNet/My_vgg16.py" />
       </list>
     </option>
   </component>
@@ -265,6 +269,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -282,7 +287,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,7 +319,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.example1-mofan">
+  <component name="RunManager" selected="Python.My_vgg16">
     <configuration name="AlexNet" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -352,7 +356,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="My_LeNet5 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="My_vgg16" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -364,25 +368,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TensorFlow" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ConvNet/My_LeNet5.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="cifar10_eval" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cifar" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TensorFlow" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cifar/cifar10_eval.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ConvNet/My_vgg16.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -406,20 +392,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="vgg16" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ConvNet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TensorFlow" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ConvNet/vgg16.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.cifar10_eval" />
-      <item index="1" class="java.lang.String" itemvalue="Python.AlexNet" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Alexnet_mytest" />
-      <item index="3" class="java.lang.String" itemvalue="Python.My_LeNet5 (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.example1-mofan" />
+      <item index="0" class="java.lang.String" itemvalue="Python.AlexNet" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Alexnet_mytest" />
+      <item index="2" class="java.lang.String" itemvalue="Python.example1-mofan" />
+      <item index="3" class="java.lang.String" itemvalue="Python.vgg16" />
+      <item index="4" class="java.lang.String" itemvalue="Python.My_vgg16" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.example1-mofan" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Alexnet_mytest" />
-        <item index="2" class="java.lang.String" itemvalue="Python.AlexNet" />
-        <item index="3" class="java.lang.String" itemvalue="Python.My_LeNet5 (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.cifar10_eval" />
+        <item index="0" class="java.lang.String" itemvalue="Python.My_vgg16" />
+        <item index="1" class="java.lang.String" itemvalue="Python.vgg16" />
+        <item index="2" class="java.lang.String" itemvalue="Python.example1-mofan" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Alexnet_mytest" />
+        <item index="4" class="java.lang.String" itemvalue="Python.AlexNet" />
       </list>
     </recent_temporary>
   </component>
@@ -489,7 +493,21 @@
       <option name="project" value="LOCAL" />
       <updated>1546714086261</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add AlexNet.">
+      <created>1547429529785</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1547429529786</updated>
+    </task>
+    <task id="LOCAL-00009" summary="some modify.">
+      <created>1547429616773</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1547429616773</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -503,11 +521,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24453841" sideWeight="0.4864865" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24453841" sideWeight="0.4864865" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.49753347" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.4820296" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17049576" sideWeight="0.54968286" order="2" side_tool="false" content_ui="tabs" x="372" y="314" width="696" height="272" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27085853" sideWeight="0.54968286" order="2" side_tool="false" content_ui="tabs" x="372" y="314" width="696" height="272" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.4947146" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -522,25 +541,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.49753347" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.4820296" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23458283" sideWeight="0.54968286" order="2" side_tool="false" content_ui="tabs" x="372" y="314" width="696" height="272" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.4947146" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09310762" sideWeight="0.5179704" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24453841" sideWeight="0.4864865" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39903265" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24453841" sideWeight="0.5135135" order="2" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -553,7 +553,9 @@
     <MESSAGE value="other updata." />
     <MESSAGE value="something that I trained for two days." />
     <MESSAGE value="Update for python3.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update for python3.5" />
+    <MESSAGE value="Add AlexNet." />
+    <MESSAGE value="some modify." />
+    <option name="LAST_COMMIT_MESSAGE" value="some modify." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -562,9 +564,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cifar10_eval.py" />
-    <entry file="file://$PROJECT_DIR$/example1-mofan.py" />
-    <entry file="file://$PROJECT_DIR$/example2-mofan.py" />
     <entry file="file://$PROJECT_DIR$/example3-mofan.py" />
     <entry file="file://$PROJECT_DIR$/cifar10_multi_gpu_train.py" />
     <entry file="file://$PROJECT_DIR$/example9-mofan.py" />
@@ -696,7 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -725,7 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -733,9 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1680">
           <caret line="106" column="22" lean-forward="false" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -751,14 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="299" column="0" lean-forward="false" selection-start-line="299" selection-start-column="0" selection-end-line="299" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConvNet/resnet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -782,7 +768,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ConvNet/Alexnet_mytest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1728">
+        <state relative-caret-position="1712">
           <caret line="108" column="72" lean-forward="false" selection-start-line="108" selection-start-column="72" selection-end-line="108" selection-end-column="72" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
@@ -803,9 +789,45 @@
     <entry file="file://$PROJECT_DIR$/mofan/example1-mofan.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
-          <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+          <caret line="26" column="3" lean-forward="false" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
           <folding>
             <element signature="e#827#850#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConvNet/resnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConvNet/vgg16.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="253" column="40" lean-forward="false" selection-start-line="253" selection-start-column="40" selection-end-line="253" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConvNet/imagenet_classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="999" column="59" lean-forward="false" selection-start-line="999" selection-start-column="59" selection-end-line="999" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConvNet/My_vgg16.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
